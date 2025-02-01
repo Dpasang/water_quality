@@ -34,8 +34,8 @@ jobs:
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
       run: |
-        git config --local user.name Otoliths
-        git config --local user.email "ly_ding@126.com"
+        git config --local user.name Dapsang
+        git config --local user.email "ninglk@foxmail.com"
         git add water_quality_data/*
         git commit -am "GH ACTION Headlines $(date)"
         git push origin main
